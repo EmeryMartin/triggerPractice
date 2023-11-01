@@ -445,6 +445,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40ed716c206cb254d8818b0b60c8d778, type: 3}
+--- !u!1 &45989494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 40ed716c206cb254d8818b0b60c8d778,
+    type: 3}
+  m_PrefabInstance: {fileID: 45989493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &80715459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2159,6 +2165,7 @@ GameObject:
   - component: {fileID: 905695928}
   - component: {fileID: 905695927}
   - component: {fileID: 905695926}
+  - component: {fileID: 905695930}
   m_Layer: 0
   m_Name: buttonCauldron
   m_TagString: Untagged
@@ -2252,6 +2259,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &905695930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905695925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c0670d421f9f04bbb2072ed0d8ad25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 45989494}
 --- !u!1001 &991913830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3353,6 +3373,7 @@ GameObject:
   - component: {fileID: 1513388747}
   - component: {fileID: 1513388746}
   - component: {fileID: 1513388745}
+  - component: {fileID: 1513388751}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3489,6 +3510,20 @@ Transform:
   - {fileID: 330585546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0.377, y: 0, z: 0}
+--- !u!114 &1513388751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513388744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42a2c0c60f8ff54198ba611e1acdee4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 5
 --- !u!1001 &1543892246
 PrefabInstance:
   m_ObjectHideFlags: 0
